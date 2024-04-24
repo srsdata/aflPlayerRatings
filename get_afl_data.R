@@ -1,0 +1,15 @@
+###########################
+### Use this file to get AFL data from Fryzigg package  ###
+#########################
+
+library(fitzRoy)
+
+# get fryzigg data
+fryzigg <- fetch_player_stats_fryzigg(season = 2024)
+
+# get footywire data
+footywire <- fetch_player_stats_footywire(season = 2024)
+
+# export data to CSV
+write.csv(fryzigg, file = "data/fq2024_data.csv")
+write.csv(footywire, file = "data/fw2024_data.csv")
