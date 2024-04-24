@@ -26,6 +26,7 @@ jobs:
           run: |
             git config --local user.email "srsdata@gmail.com"
             git config --local user.name "srsdata"
+            git -C /data
             git add fz2024_data.csv
             git commit -m 'Data updated' || echo "No changes to commit"
             git push origin || echo "No changes to commit"
