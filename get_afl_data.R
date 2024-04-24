@@ -1,5 +1,5 @@
 ###########################
-### Use this file to get AFL data from Fryzigg package  ###
+### Use this file to get AFL data from fitzRoy package  ###
 #########################
 
 library(fitzRoy)
