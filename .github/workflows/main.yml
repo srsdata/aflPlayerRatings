@@ -1,6 +1,6 @@
 on:
     schedule:
-        - cron: "0 14 * * 4-1"
+        - cron: "0 14 * * 0-6"
 
 jobs:
     import-data:
